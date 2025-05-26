@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name" : "python server",
+            "cwd": "C:/Users/subha/OneDrive/Desktop/aws-pro",
+            "script" : "app.py"
+        }
+    ]
+}
