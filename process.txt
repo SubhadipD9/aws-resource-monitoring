@@ -1,0 +1,42 @@
+1. sudo apt-get update && sudo apt-get upgrade -y
+2. sudo apt-get install python3-venv 
+3. sudo apt-get install python3-pip
+4. mkdir {Folder name}
+5. cd {Folder name}
+
+// If you want to config aws cli on EC2 then run following command
+
+6. curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+7. sudo apt install unzip
+8. unzip awscliv2.zip
+9. sudo ./aws/install
+10. aws --version 
+
+// End, now configure aws cli using your IAM user access keys
+
+11. aws configure
+12. python3 -m venv venv
+13. source venv/bin/activate
+14. pip3 install boto3 flask flask_cors jsonify
+
+// here now run "deactivate" command to stop virtual env
+
+15. sudo apt-get install apache2
+16. sudo systemctl start apache2
+17. sudo systemctl enable apache2
+
+//. import your code file using fileZilla and move index.html, style.css, script.js (if css, js in another file)
+and any image using following command
+
+18. sudo mv {index.html, and other file one by one } /var/www/html/ ,{here first move index.html, then others files}
+
+//
+
+19. Now back to the home directory using :- cd 
+20. cd {your code folder name}
+
+21. // start your virtual env using:- source venv/bin/activate
+
+22. Now run you code file using like:- python3 app.py OR node index.js [According to your project techstack]
+
+// if you follow every steps correctly then you see the logs and your web site is up and running
